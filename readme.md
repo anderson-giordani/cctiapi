@@ -2,7 +2,7 @@
 
 1 - Criar as seguintes entidades:
 
-- [x] [Pessoa Física – nome, cpf;](https://github.com/anderson-giordani/cctiapi/blob/master/database/migrations/2019_09_14_160721_create_pessoas_fisicas_table.php;
+- [x] [Pessoa Física – nome, cpf](https://github.com/anderson-giordani/cctiapi/blob/master/database/migrations/2019_09_14_160721_create_pessoas_fisicas_table.php);
 - [x] [Pessoa Jurídica – razao_social, cnpj;](https://github.com/anderson-giordani/cctiapi/blob/master/database/migrations/2019_09_14_161806_create_pessoas_juridicas_table.php)
 - [x] [Animais – identificacao(14 digitos), raca, sexo;](https://github.com/anderson-giordani/cctiapi/blob/master/database/migrations/2019_09_14_160432_create_animais_table.php)
 
@@ -45,6 +45,12 @@ O mesmo funciona para pessoa juridíca - mudando apenas o endpoint a api reconhe
 
 [App\Http\Requests](https://github.com/anderson-giordani/cctiapi/tree/master/app/Http/Requests): diretório contendo todas as classes de validação, diminuindo o acoplamento entre a validação e os controllers.
 
-##ENDPOITS
+### ENDPOITS
 
 Removi o prefixo api, todas as requisições são direcionadas a API
+
+### Exemplo Simples
+
+Vale lembrar que esta é apenas uma API simples, sem camadas e muitos recursos essenciais para qualquer projeto, muito pode ser feito, e o que ja foi feito pode ainda melhorar.
+
+:)
